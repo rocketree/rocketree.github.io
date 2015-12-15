@@ -1,0 +1,87 @@
+footer {
+  padding-top: 30px;
+  text-align: center;
+}
+
+footer i {
+  font-size: 30px;
+}
+
+.white {
+  color: white;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+
+.image-overlay-text {
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,.75);
+}
+
+.backdrop {
+  position: absolute;
+  z-index: -99;
+  background-size: cover;
+}
+
+blockquote {
+  font-size: rem-calc(23);
+  font-style: italic;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: initial;
+}
+
+blockquote {
+  margin-left: -70px;
+}
+.right blockquote {
+  margin-left: inherit;
+  margin-right: -70px;
+  text-align: right;
+}
+
+@include media-query($on-laptop) {
+  blockquote {
+    margin-left: 0px;
+  }
+  .right blockquote {
+    margin-left: inherit;
+    margin-right: 0px;
+    text-align: right;
+  }
+  .main-image {
+    height: 600px;
+  }
+  .image-overlay-text {
+    padding-top: 450px;
+  }
+}
+
+@include media-query($on-palm) {
+  .main-image {
+    height: 400px;
+  }
+  .image-overlay-text {
+    padding-top: 300px;
+  }
+}
+
+.main-image {
+  width: 100%;
+  background-size: cover;
+}
+
+#index-main-image {
+  background-image: url('../images/treasure_map1.jpg');
+}
+
+
