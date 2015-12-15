@@ -8,6 +8,10 @@ So, you want to put a solar panel on your car. Or, you don't.
 
 Something like a solar panel to try and charge an electric heater will simply **not** work. You can't get enough power for high wattage applications like that.
 
+<blockquote class="left-align">
+This is a block quote
+</blockquote>
+
 Why?
 ====
 
