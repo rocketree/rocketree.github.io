@@ -1,1 +1,33 @@
----layout: posttitle:  "Intro"date:   2015-12-15 11:35:00 -0500categories: intro---The story of an adventure=====Welcome to the blog of two young kids having an adventure. Generally, that adventure is life. You happen to have caught us at a particularly great time in our adventure.This is the story of Sean and Christine (hello!) and our attempt to leave behind our normal lives and well-paying jobs in Washington DC, to live out of our car and enjoy the expansive outdoors.  Over the next few months we will be driving out west – to the Rocky Mountains, and traverse the great Northwest. We’ll be exploring, skiing, and making new friends in Colorado, Wyoming, Utah, Montana, and up through the vast Wilderness of British Colombia.Our story started four months ago, when Sean told Christine that he had always wanted to spend a whole winter skiing out West.  In 20 minutes, they discussed the merits of such an adventure and settled it. They would spend that winter living in their Nissan Xterra and growing spiritually, athletically, and intellectually.A bit about us==============Sean is a software engineer. He builds cool products and spends his free time playing with new ways to use encryption. He’s a really, pretty darn good skier, and skied Antarctica two years ago!  He also likes lists, and being on time, and really loves when things are efficient. Like, really loves it.Christine is a jack of many trades and has spent lots of years living around the world. She works in technology and international democracy, which is hard to explain but pretty darn cool. She is rarely on time and thinks efficiency sounds like a bad type of mackerel.We met two years ago, at work, the day Sean returned from Antarctica, full-bearded and carrying ice picks. We were on the same engineering team and spent several awkward months making doe eyes across standing desks.Our journey with you==========Today we’ve refit our car, (affectionately termed the LuvSUV by friends), with a bed, solar panel, and other accouterments to make the long winter a bit easier, and we are so excited to share our adventure with YOU! You can follow our journey at rocketree.io, sign up for our newsletter, or follow us on Twitter @therocketree . We will share with our friends and readers the unfettered truth about the good times we celebrate, the bad we suffer through, and the lessons and tips we learn along the way.Thank you for joining us! It’s going to be quite the journey.
+---
+layout: post
+title:  "Intro"
+date:   2015-12-15 11:35:00 -0500
+categories: intro
+---
+The story of an adventure
+=====
+
+Welcome to the blog of two young kids having an adventure. Generally, that adventure is life. You happen to have caught us at a particularly great time in our adventure.
+
+This is the story of Sean and Christine (hello!) and our attempt to leave behind our normal lives and well-paying jobs in Washington DC, to live out of our car and enjoy the expansive outdoors.  Over the next few months we will be driving out west – to the Rocky Mountains, and traverse the great Northwest. We’ll be exploring, skiing, and making new friends in Colorado, Wyoming, Utah, Montana, and up through the vast Wilderness of British Colombia.
+
+Our story started four months ago, when Sean told Christine that he had always wanted to spend a whole winter skiing out West.  In 20 minutes, they discussed the merits of such an adventure and settled it. They would spend that winter living in their Nissan Xterra and growing spiritually, athletically, and intellectually.
+
+
+A bit about us
+==============
+
+Sean is a software engineer. He builds cool products and spends his free time playing with new ways to use encryption. He’s a really, pretty darn good skier, and skied Antarctica two years ago!  He also likes lists, and being on time, and really loves when things are efficient. Like, really loves it.
+
+Christine is a jack of many trades and has spent lots of years living around the world. She works in technology and international democracy, which is hard to explain but pretty darn cool. She is rarely on time and thinks efficiency sounds like a bad type of mackerel.
+
+We met two years ago, at work, the day Sean returned from Antarctica, full-bearded and carrying ice picks. We were on the same engineering team and spent several awkward months making doe eyes across standing desks.
+
+
+Our journey with you
+==========
+
+Today we’ve refit our car, (affectionately termed the LuvSUV by friends), with a bed, solar panel, and other accouterments to make the long winter a bit easier, and we are so excited to share our adventure with YOU! You can follow our journey at rocketree.io, sign up for our newsletter, or follow us on Twitter @therocketree . We will share with our friends and readers the unfettered truth about the good times we celebrate, the bad we suffer through, and the lessons and tips we learn along the way.
+
+Thank you for joining us! It’s going to be quite the journey.
+
