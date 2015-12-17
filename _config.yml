@@ -16,3 +16,5 @@ twitter_username: TheRocketree
 
 # Build settings
 markdown: kramdown
+
+permalink: pretty

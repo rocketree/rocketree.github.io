@@ -129,10 +129,12 @@ blockquote {
 .main-image {
   width: 100%;
   background-size: cover;
+  max-height: 400px;
+  overflow: hidden;
 }
 
-#index-main-image {
-  background-image: url("../images/treasure_map1.jpg");
+.main-image img {
+  width: 100%;
 }
 
 .icon > svg {

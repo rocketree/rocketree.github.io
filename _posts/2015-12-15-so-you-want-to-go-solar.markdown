@@ -2,7 +2,7 @@
 layout: post
 title:  "So You Want To Go Solar"
 date:   2015-12-15 11:35:00 -0500
-categories: solar DIY
+tags: solar DIY
 ---
 So, you want to put a solar panel on your car. Or, you don't.
 
