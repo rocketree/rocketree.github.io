@@ -24,18 +24,24 @@ $on-laptop:        1000px;
     }
 }
 
-article p {
-  font-size: 16px;
+body, .mdl-layout-title, .mdl-button, h1, h2, h3, h4, h5, h6, input {
+  font-family: "Raleway", sans-serif !important;
+}
+
+article p, p {
+  font-size: 16px !important;
 }
 
 #main-footer {
+  color: black;
+  background-color: white;
   padding-top: 30px;
   text-align: center;
   justify-content: center;
 }
 
 .page-heading {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .post-link {
@@ -68,6 +74,10 @@ footer i {
   position: absolute;
   z-index: -99;
   background-size: cover;
+}
+
+#main-header {
+  background-color: #333333;
 }
 
 blockquote {
@@ -119,6 +129,10 @@ blockquote {
 .main-image {
   width: 100%;
   background-size: cover;
+}
+
+#index-main-image {
+  background-image: url("../images/treasure_map1.jpg");
 }
 
 .icon > svg {

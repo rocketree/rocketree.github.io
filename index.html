@@ -4,6 +4,14 @@ layout: default
 
 <div class="home">
 
+  <div id="index-main-image" class="main-image">
+    <div class="main-image-background"></div>
+  </div>
+
+  <h1 class="page-heading">Follow Along</h1>
+  <p>
+  We're sending out regular updates to a mailing list. Sign up for our travel notes!
+  </p>
   <!-- Begin MailChimp Signup Form -->
   <div id="mc_embed_signup">
     <form action="//prometheusx.us11.list-manage.com/subscribe/post?u=b92e1cdfaf980c35b4c190561&amp;id=9803e5ba3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -23,22 +31,17 @@ layout: default
     </form>
   </div>
   <!--End mc_embed_signup-->
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
+  <div class="mdl-grid">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+      <div class="mdl-card mdl-cell mdl-cell--12-col">
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-      </li>
+        {{ post.content | strip_html | truncatewords:75}}
+      </div>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  </div>
 </div>
 
 <!-- Mailchimp JS -->

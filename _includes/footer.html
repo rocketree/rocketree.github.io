@@ -14,6 +14,9 @@
           {% include icon-twitter.html username=site.twitter_username %}
         </li>
       {% endif %}
+      <li>
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+      </li>
     </ul>
   </div>
 </footer>
