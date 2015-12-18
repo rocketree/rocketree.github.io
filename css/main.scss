@@ -28,7 +28,7 @@ body, .mdl-layout-title, .mdl-button, h1, h2, h3, h4, h5, h6, input {
   font-family: "Raleway", sans-serif !important;
 }
 
-article p, p {
+article p, p, li {
   font-size: 16px !important;
 }
 
@@ -92,12 +92,29 @@ video {
 }
 
 blockquote {
-  margin-left: -70px;
+  border-left: 2px solid #DDDDDD;
+  font-style: italic;
+  margin-left: -50px;
+  padding-left: 14px;
 }
+
+blockquote, blockquote p {
+  color: #6f6f6f;
+}
+
+/* clear out mdl added quotes */
+blockquote::before, blockquote::after {
+  display: none;
+}
+
 .right blockquote {
   margin-left: inherit;
-  margin-right: -70px;
+  margin-right: -50px;
   text-align: right;
+}
+
+.right {
+  float: right;
 }
 
 @include media-query($on-laptop) {
@@ -119,7 +136,7 @@ blockquote {
 
 @include media-query($on-palm) {
   .main-image {
-    height: 400px;
+    max-height: 400px;
   }
   .image-overlay-text {
     padding-top: 300px;
@@ -140,6 +157,10 @@ blockquote {
 .icon > svg {
   width: 16px;
   height: 16px;
+}
+
+img {
+  width: 100%;
 }
 
 
