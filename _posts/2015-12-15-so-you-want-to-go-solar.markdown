@@ -8,14 +8,11 @@ So, you want to put a solar panel on your car. Or, you don't.
 
 Something like a solar panel to try and charge an electric heater will simply **not** work. You can't get enough power for high wattage applications like that.
 
-<blockquote class="left-align">
-This is a block quote
-</blockquote>
-
 Why?
 ====
 
-This is a good question
+This is a good question:
+
 * You want to use a lot of car accessories without draining your battery.
   * Perhaps you want to sleep in your car?
 * You think solar is interesting
@@ -35,6 +32,10 @@ How long did it take?
 **Research: 8 hours**
 
 I spent more time researching than getting the pieces together. That was probably not required, but I enjoyed it. Getting the panel mounted was an afternoon's worth of work and a run to the hardware store.
+
+<blockquote class="left-align">
+I spent more time researching than getting the pieces together
+</blockquote>
 
 The hardest part to plan ahead of time was figuring out exactly how to attache the panel to the roof. In the end, the Xterra that we're attaching to provided a fantastic by sliding in right under the stock roof rack. This was really nice for a few reasons:
 
