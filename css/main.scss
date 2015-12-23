@@ -127,7 +127,7 @@ blockquote::before, blockquote::after {
     text-align: right;
   }
   .main-image {
-    height: 600px;
+    max-height: 600px;
   }
   .image-overlay-text {
     padding-top: 450px;
