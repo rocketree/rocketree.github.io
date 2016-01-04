@@ -4,26 +4,56 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Follow Along</h1>
-  <p><strong>
-  We're sending out regular updates to a mailing list. Sign up for our travel notes! This is the BEST way to stay up to date with us. Seriously, this is the best. We promise it will be full of delight and not at all spammy.
-  </strong></p>
-  <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/rocketree" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/rocketree', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-    <p>
-    <label>Enter your email address to get our Newsletter</label>
-    </p>
-    <p>
-    <div class="mc-field-group mdl-textfield mdl-js-textfield">
-      <label for="tlemail" class="mdl-textfield__label">Email Address  <span class="asterisk">*</span>
-      </label>
-      <input type="text" class="mdl-textfield__input" name="email" id="tlemail" />
+  <section class="mdl-grid signup-box">
+    <div style="border:1px solid #ccc;" class="mdl-card mdl-shadow--2dp mdl-cell--12-col">
+      <div class="mdl-card__title">
+        <h1 class="page-heading">Follow Along</h1>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <p><strong>
+          We're sending out regular updates to a mailing list. Sign up for our travel notes! This is the BEST way to stay up to date with us. Seriously, this is the best. We promise it will be full of delight and not at all spammy.
+        </strong></p>
+        <form style="padding:6px;text-align:center;" action="https://tinyletter.com/rocketree" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/rocketree', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+          <p>
+          <label>Enter your email address to get our Newsletter</label>
+          </p>
+          <p>
+          <div class="mc-field-group mdl-textfield mdl-js-textfield">
+            <label for="tlemail" class="mdl-textfield__label">Email Address  <span class="asterisk">*</span>
+            </label>
+            <input type="text" class="mdl-textfield__input" name="email" id="tlemail" />
+          </div>
+          </p>
+          <input type="hidden" value="1" name="embed"/>
+          <input type="submit" value="Subscribe" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"/>
+        </form>
+      </div>
     </div>
-    </p>
-    <input type="hidden" value="1" name="embed"/>
-    <input type="submit" value="Subscribe" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"/>
-  </form>
+  </section>
 
-  <h2 id="the-story-of-an-adventure">The story of an adventure</h2>
+  <h1>Adventure Posts</h1>
+  <p>
+  Here are some posts of what our journey so far! Check them out.
+  </p>
+  <div class="mdl-grid">
+    {% for post in site.posts %}
+      <div class="mdl-card mdl-cell mdl-cell--6-col mdl-shadow--2dp">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </div>
+        <div class="mdl-card__media">
+          <img src="{{ site.baseurl }}/images{{post.url}}main.jpg" width="220" border="0" alt="">
+        </div>
+        <div class="mdl-card__supporting-text">
+          {{ post.content | strip_html | truncatewords:50}}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <h1 id="the-story-of-an-adventure">The story of an adventure</h1>
 
   <p>Welcome to the blog of two young kids having an adventure. Generally, that adventure is life. You happen to have caught us at a particularly great time in our adventure.</p>
 
@@ -49,7 +79,7 @@ layout: default
 
   <p>Today we’ve retrofit our car, (affectionately termed the LuvSUV by friends), with a bed, solar panel, and other accouterments to make the long winter a bit easier, and we are so excited to share our adventure with <strong>YOU</strong>! You can follow our journey here at <a href="https://rocketree.io">rocketree.io</a>, sign up for our newsletter below (seriously, do this), email <a href="mailto:us@rocketree.io">us@rocketree.io</a>, or follow us on <a href="https://twitter.com/TheRocketree">Twitter @TheRocketree</a>. We will share with our friends and readers the unfettered truth about the good times we celebrate, the bad we suffer through, and the lessons and tips we learn along the way.</p>
 
-  <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/rocketree" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/rocketree', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+  <form style="border:1px solid #ccc;padding:6px;text-align:center;" action="https://tinyletter.com/rocketree" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/rocketree', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
     <p>
     <label>Enter your email address to get our Newsletter</label>
     </p>
@@ -80,19 +110,5 @@ layout: default
 
   <p>We're excited for our winter and excited to <strong>hear from you</strong>!</p>
 
-  <h1>Adventure Posts</h1>
-  <p>
-  Here are some posts of what our journey so far! Check them out.
-  </p>
-  <div class="mdl-grid">
-    {% for post in site.posts %}
-      <div class="mdl-card mdl-cell mdl-cell--12-col">
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {{ post.content | strip_html | truncatewords:75}}
-      </div>
-    {% endfor %}
-  </div>
 </div>
 
