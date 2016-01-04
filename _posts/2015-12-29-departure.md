@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Departure!"
-date:   2015-12-29 22:55:00 -0500
+date:   2015-12-29 22:55:00
 tags: log
 ---
 
