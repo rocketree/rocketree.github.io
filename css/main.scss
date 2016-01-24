@@ -122,37 +122,12 @@ blockquote::before, blockquote::after {
   float: right;
 }
 
-@include media-query($on-laptop) {
-  blockquote {
-    margin-left: 0px;
-  }
-  .right blockquote {
-    margin-left: inherit;
-    margin-right: 0px;
-    text-align: right;
-  }
-  .main-image {
-    max-height: 600px;
-  }
-  .image-overlay-text {
-    padding-top: 450px;
-  }
-}
-
-@include media-query($on-palm) {
-  .main-image {
-    max-height: 400px;
-  }
-  .image-overlay-text {
-    padding-top: 300px;
-  }
-}
-
 .main-image {
   width: 100%;
   background-size: cover;
   max-height: 600px;
   overflow: hidden;
+  padding-top: 64px;
 }
 
 .main-image img {
@@ -168,6 +143,51 @@ img {
   width: 100%;
 }
 
+p a img {
+  width: 50%
+}
+
+.center {
+  text-align: center;
+}
+
+.caption {
+  text-align: center;
+}
+
+@include media-query($on-laptop) {
+  blockquote {
+    margin-left: 0px;
+  }
+  .right blockquote {
+    margin-left: inherit;
+    margin-right: 0px;
+    text-align: right;
+  }
+  .main-image {
+    max-height: 600px;
+    padding-top: 56px;
+  }
+  .image-overlay-text {
+    padding-top: 450px;
+  }
+  p a img {
+    width: 70%
+  }
+}
+
+@include media-query($on-palm) {
+  .main-image {
+    max-height: 400px;
+    padding-top: 56px;
+  }
+  .image-overlay-text {
+    padding-top: 300px;
+  }
+  p a img {
+    width: 80%
+  }
+}
 
 //
 //
